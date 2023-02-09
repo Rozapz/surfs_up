@@ -5,37 +5,17 @@ Analysis for wheather data with Python and SQL
 To invest in a surf and ice cream shop we should first investigate the weather data. The main concern is the amount of rain in that location and temperature. To analyze the weather data, SQLAlchemy and python was used to query from the SQLite database.
 
 ## Results
+The results to compare the temperature in both June and December are shown below:
 
-![June statistics](June temp.PNG)
+![June statistics](June_temp.PNG) ![December statistics](Dec_temp.PNG)
 
-![December statistics](Dec temp.PNG)
+  - The lowest temperature in Dec is 56F which is not suitable for ice cream but it does not mean that Dec is not suitable for ice-cream.
+  - The mean temperature in Dec shows that ice-cream can be served all year round. 71F is pretty good temperature for ice-cream.
+  - With 3 to 4 degree Farenhait standard deviation in these two months, we can say that there is not much deviation in temperature.
+  - Maximum temperature of 83F for December shows that we can sell ice cream all year round.
 
-
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
-
-The analysis should contain the following:
-
-Overview of the analysis: Explain the purpose of this analysis.
-Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December
+## Summary
+The temperature data were analyzed and it was shown that temperature wise, investing in an icecream shop is a good oppertunity. Another factor that we have to consider is the amount of rain in the island. We can do a quary to get precipitation for different months and compare them. It is suggested to to get the data at least for June and December. Other than this, it is important to note that August and Christmas season is the time we expect the most visitors to the icland. It is important to check the wheather for those two months as well. 
 
 
-Deliverable 3: A written report for the statistical analysis (20 points)
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
 
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
-
-Overview of the statistical analysis:
-
-The purpose of the analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
-Summary:
-
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
